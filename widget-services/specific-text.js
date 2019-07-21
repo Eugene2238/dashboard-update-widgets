@@ -1,5 +1,6 @@
 const http = require('http');
 const https = require('https');
+const URL = require('url').URL;
 
 module.exports.specificText = function(widget, callback) {
     const url = new URL(widget.settings.url);
