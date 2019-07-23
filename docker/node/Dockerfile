@@ -22,4 +22,4 @@ LABEL maintainer="Evgenii Koniakhin <eugene2238@gmail.com>" \
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["pm2-runtime", "start", "index.js", "--name", "dashboard_update-widgets"]
+CMD ["pm2-runtime", "start", "index.js", "--name", "dashboard-update-widgets"]
